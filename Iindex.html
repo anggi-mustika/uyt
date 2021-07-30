@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUHAMMAD EFRIANS ANANTA</title>
+
+<body>
+
+    
+    <header style="text-align: center;">
+      
+        <h1>MUHAMMAD EFRIANS ANANTA</h1>
+        <p><b>(MAHASISWA POLINELA)</b></p>
+</header>
+
+<hr/>
+
+    <div class="employee-form">
+        <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+            <div>
+                <label>NAMA LENGKAP</label><label class="validation-error hide" id="fullNameValidationError"></label></br>
+                <input type="text" name="Namalengkap" id="Namalengkap" placeholder="Tuliskan Nama Lengkap">
+            </div>
+            <div>
+                <label>NPM</label></br>
+                <input type="text" name="Npm" id="Npm" placeholder="Tuliskan NPM">
+            </div>
+            <div>EMAIL</br>
+                <input type="text" name="Email" id="Email" placeholder="Tuliskan Email">
+            </div>
+            <div>ALAMAT</br>
+                <input type="Alamat" name="Alamat" id="Alamat" placeholder="Tuliskan Alamat">
+            </div>
+           <div class="form-action-buttons">
+                <input type="Submit" value="Submit">
+          </div>
+        </form>
+    </div>
+    
+    <br/>
+    <div tyle="max-width: 550px; margin: 3em auto" class="employees-table">
+        <table bgcolor="#e2b1ff"border="1" width="100%" class="list" id="employeeList">
+            <thead>
+          <tbody>
+                <tr>
+                    <td bgcolor="red" align="center">NAMA LENGKAP</td>
+                    <td bgcolor="red" align="center">NPM</td>
+                     <td bgcolor="red" align="center">ALAMAT</td>
+                     <td bgcolor="red" align="center">EMAIL</td>
+                     <td bgcolor="red" align="center">EDIT</td>
+                   
+                </tr>
+          </tbody>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <script src="File.js"></script>
+    <hr>
+    <footer style="text-align: center;">
+        <p>Copyright &copy; 2021 <a href="https://about.me/MUHAMMAD EFRIANS ANANTA"> MUHAMMAD EFRIANS ANANTA </a></p>
+    </footer>
+</body>
+</html>
